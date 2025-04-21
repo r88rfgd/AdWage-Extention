@@ -28,17 +28,9 @@ When using AdWage to earn coins, you typically need to:
 
 ### Google Chrome
 
-#### Using the CRX File:
-1. Download the `.crx` file from this repository  
-2. Navigate to `chrome://extensions/`  
-3. Enable **Developer mode** (top-right corner)  
-4. Drag and drop the `.crx` file onto the extensions page  
-5. Click **Add extension** in the confirmation dialog  
-
-#### Loading Unpacked (Alternative Method):
 1. Download and extract the extension files  
 2. Navigate to `chrome://extensions/`  
-3. Enable **Developer mode**  
+3. Enable **Developer mode** (top-right corner)  
 4. Click **Load unpacked**  
 5. Select the folder containing the extension files  
 
@@ -46,38 +38,40 @@ When using AdWage to earn coins, you typically need to:
 
 ### Microsoft Edge
 
-#### Enable Chrome Extensions:
 1. Go to `edge://extensions/`  
 2. Enable **Allow extensions from other stores**  
-3. Follow the Chrome installation steps above  
+3. Enable **Developer mode**  
+4. Click **Load unpacked**  
+5. Select the folder containing the extension files  
 
 ---
 
 ### Firefox
 
-#### Temporary Installation:
+> ⚠️ Firefox support is experimental and may require compatibility adjustments.
+
 1. Go to `about:debugging#/runtime/this-firefox`  
 2. Click **Load Temporary Add-on**  
-3. Select the `manifest.json` file in the extracted directory  
-
-> **Note**: For permanent installation, the extension must be modified for Firefox compatibility and signed by Mozilla.
+3. Select the `manifest.json` file from the extracted folder  
 
 ---
 
 ### Opera
 
-#### Using Chrome Extensions:
 1. Install the **Install Chrome Extensions** add-on from Opera's Add-ons store  
-2. Follow the Chrome installation steps above  
+2. Navigate to `opera://extensions`  
+3. Enable **Developer mode**  
+4. Click **Load unpacked extension**  
+5. Select the folder containing the extension files  
 
 ---
 
 ### Brave
 
-#### Standard Installation:
 1. Navigate to `brave://extensions/`  
 2. Enable **Developer mode**  
-3. Follow the Chrome installation steps above  
+3. Click **Load unpacked**  
+4. Select the folder containing the extension files  
 
 ---
 
@@ -116,4 +110,3 @@ When using AdWage to earn coins, you typically need to:
 ## Disclaimer
 
 This extension is **not affiliated with AdWage** or its developers. It is an **unofficial tool** designed to improve the user experience by automating tab management during ad surfing.
-
